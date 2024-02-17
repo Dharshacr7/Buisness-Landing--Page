@@ -368,15 +368,14 @@ a{
         width: fit-content;
         flex-wrap: nowrap;
         padding: 5rem;
-    }
-    .shop-head h2{
-        display: none;
+        /* margin-top: 7rem; */
     }
     .about{
         display: flex;
         flex-direction: column;
-        padding: 2rem;
+        padding: 2rem 2rem;
         width: 100%;
+        margin-bottom: 20rem;
     }
     .main{
         display: flex;
@@ -454,6 +453,16 @@ a{
         text-align: center;
         font-size: 8px;
         font-weight: 500;
+    }
+    .shop-head {
+        display: none;
+    }
+    .shop-card{
+        padding: 20px 0px;
+        margin-top: 0rem;
+    }
+    .about .person:last-child{
+        margin-bottom: 5rem;
     }
 
 }
