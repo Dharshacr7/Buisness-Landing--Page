@@ -369,7 +369,7 @@ a{
         flex-wrap: nowrap;
         padding: 5rem;
     }
-    #shop h2{
+    .shop-head h2{
         display: none;
     }
     .about{
@@ -452,7 +452,7 @@ a{
     .navbar .links a{
         width: 50px;
         text-align: center;
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 500;
     }
 
